@@ -13,9 +13,6 @@ const HeroBanner = () => (
     <Typography fontSize="22px" fontFamily="Alegreya" lineHeight="35px">
       An extensive range of excersises to help you get fit.
     </Typography>
-    <Stack>
-      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#5CE1E6', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
-    </Stack>
     <Typography fontWeight={600} color="#5CE1E6" sx={{ opacity: '0.1', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
       Fitness
     </Typography>

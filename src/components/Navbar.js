@@ -9,15 +9,8 @@ const Navbar = () => (
     <Link to="/">
       <img src={Logo} alt="logo" style={{ width: '170px', height: 'auto' }} />
     </Link>
-    <Stack
-      direction="row"
-      gap="40px"
-      fontFamily="Alegreya"
-      fontSize="24px"
-      alignItems="flex-end"
-    >
+    <Stack direction="row" gap="40px" fontFamily="Alegreya" fontSize="24px" alignItems="flex-end">
       <Link to="/" style={{ textDecoration: 'none', color: '#122f3a', borderBottom: '3px solid #5CE1E6' }}>Home</Link>
-      <a href="#exercises" style={{ textDecoration: 'none', color: '#122f3a' }}>Exercises</a>
     </Stack>
   </Stack>
 );
